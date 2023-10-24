@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07060B;
+    height: 50000px;
+}
+
+img {
+    height: 21%;
+    position: absolute;
+    right: 1.6%;
+    top: -3%;
+}
+
+.moto {
+    width: 38%;
+    text-align: right;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    top: 65%;
+    right: 3%
+}
+
+.bgImage {
+    width: 100%;
+    height: 140vh;
+    background-image: url("earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signUp {
+    width: 25%;
+    height: 55%;
+    /* background: white; */
+    background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.904),rgba(255, 255, 255, 0.589),rgba(255, 255, 255, 0.24));
+    position: relative;
+    left: 7vw;
+    top: 10vh;
+    border-radius: 1.5vw;
+    box-shadow: 0 4px 8px 0 rgba(3, 44, 71, 0.685), 0 6px 100px 0 rgba(4, 39, 53, 0.678);
+    padding: 4% 2% 2% 2%;
+    transition-duration: 0.25s;
+}
+
+.signUp:hover {
+    box-shadow: 0 4px 8px 0 rgba(3, 44, 71, 0.685), 0 6px 100px 0 rgba(28, 109, 141, 0.507);
+}
+
+.catagory {
+    background-image: linear-gradient(180deg, #036CBD, #031338);
+    width: 84%;
+    height: 74%;
+    position: absolute;
+    top: 21%;
+    border-radius: 4%;
+    z-index: 2;
+}
+
+.radio {
+    background: #78a9c0;
+    width: 100%;
+    height: 20%;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio label {
+    width: 41%;
+    height: 15%;
+    position: absolute;
+    border-radius: 0.8vw;
+    z-index: 1;
+    /* background: #036CBD; */
+}
+
+.r1 {
+    left: 8%;
+    text-align: center;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 1.3vw;
+    color: white;
+    padding: 5% 0%;
+}
+
+.r2 {
+    left: 51%;
+    text-align: center;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 1.3vw;
+    color: white;
+    padding: 5% 0%;
+}
+
+.radio input {
+    position: absolute;
+    visibility: hidden;
+}
+
+input[type="radio"]:checked+label {
+    background: #036CBD;
+}
+
+form {
+    margin: 20% 8%;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 1vw;
+    color: white;
+}
+
+.textbox{
+    background: #ffffff00;
+    color: white;
+    font-family: 'MuseoModerno', sans-serif;
+    border: 1px solid white;
+    border-radius: 0.4vw;
+    display: block;
+    width: 100%;
+    height: 4.5vh;
+    margin: 1.5% 0% 3% 0%;
+    padding: 3%;
+}
+
+.submit {
+    background: #ffffff;
+    color: #033E78;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 1.4vw;
+    font-weight: 900;
+    border: 1px solid white;
+    border-radius: 0.4vw;
+    display: block;
+    width: 100%;
+    height: 4.5vh;
+    margin: 1.5% 0% 3% 0%;
+}
+
+form p {
+    margin: 25% 0% 0% 0%;
+}
+
+p a {
+    color: white;
+    margin: 0% 5%;
+}
